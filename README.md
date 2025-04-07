@@ -1,4 +1,4 @@
-# textanalysis
+#textanalysis
 
 #Dataset Overview
 
@@ -20,38 +20,38 @@
 
 #Charts & Insights
 
-1. Top 10 Most Common Issues**
-![Top Issues](https://github.com/22-jsn/textanalysis/blob/6a07250c89e79eb56a26b306c3af2d7031b21d94/top_issues.pdf)  
+1. Top 10 Most Common Issues
+[Top Issues](top_issues1.pdf)  
 > Loan servicing and account management were the most frequent sources of consumer complaints, highlighting recurring operational breakdowns in financial services.
 
 
-2. **Complaints by State**
-![Complaints by State]([images/state_complaints.png](https://github.com/22-jsn/textanalysis/blob/41d357f867cedb3a71590da9baac247b845d11cc/state_complaints.pdf))  
+2. Complaints by State
+[Complaints by State](state_complaints1.pdf)
 > California, Texas, and Florida generated the most complaints, possibly due to population density and volume of financial service users.
 
 
-3. **Timely Response Rate by Company**
-![Timely Response Rate](timely_response.pdf)  
+3. Timely Response Rate by Company
+[Timely Response Rate](timely_response1.pdf)  
 > Most top companies maintained high timely response rates — likely due to strict regulatory pressure and established case-handling infrastructure.
 
 
-### 4. **Sentiment Score (Bing Lexicon)**
-![Sentiment Bing](images/sentiment_bing.png)  
+4. Sentiment Score (Bing Lexicon)
+[Sentiment Bing](sentiment_bing1.pdf)  
 > The overwhelming tone is negative, indicating that complaint narratives are emotionally charged and often convey frustration or dissatisfaction.
 
 
-5. **Word Cloud from Narratives**
-![Word Cloud](images/wordcloud.png)  
+5. Word Cloud from Narratives
+[Word Cloud](wordcloud1.pdf)  
 > Frequent words include “credit,” “report,” “payment,” and “account,” showing that most complaints relate to consumer credit tracking and billing.
 
 
-6. **Complaints Over Time**
-![Complaints Over Time](images/complaints_over_time.png)  
+6. Complaints Over Time
+[Complaints Over Time](complaints_over_time1.pdf)  
 > Volume of complaints fluctuated monthly with noticeable spikes — possibly tied to seasonal finance cycles or major economic events.
 
 
-7. **How Complaints Are Submitted**
-![Submission Methods](images/complaints_channel.png)  
+7. How Complaints Are Submitted
+[Submission Methods](complaints_channel.pdf)  
 > The majority of complaints are submitted via the web. Surprisingly few use mail, fax, or phone, showing digital-first engagement patterns.
 
 
