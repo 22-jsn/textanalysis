@@ -1,5 +1,5 @@
 # Project: Consumer Complaint Insights
-# Description: Analyze complaint data to extract meaningful insights, sentiments, and common patterns.
+
 
 library(tidyverse)      # For data manipulation and visualization
 library(tidytext)       # For sentiment analysis
