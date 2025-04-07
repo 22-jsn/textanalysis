@@ -54,6 +54,9 @@
 [Submission Methods](complaints_channel.pdf)  
 > The majority of complaints are submitted via the web. Surprisingly few use mail, fax, or phone, showing digital-first engagement patterns.
 
+8. Frequency of Issues by Product
+[Frequency of Issues](frequency_of_issues1.pdf)  
+> A heatmap showing which issues are most frequently reported for each product category, highlighting key pain points by service type.
 
 #Sentiment Analysis
 
@@ -62,4 +65,4 @@ Two lexicons were used to evaluate the emotional tone of complaint narratives:
 - Bing:Classifies each word as either *positive* or *negative*
 - NRC:Tags words with emotions such as *anger*, *trust*, *joy*, *fear*, etc.
 
-The analysis showed that consumer narratives skew highly **negative**, confirming the dissatisfaction most consumers feel when filing complaints.
+The analysis showed that consumer narratives skew highly negative, confirming the dissatisfaction most consumers feel when filing complaints.
