@@ -9,19 +9,19 @@
 | 'Submitted via'               | Channel used to submit the complaint (web, phone, etc.)     |
 | 'Date received'              | Date the complaint was submitted to the CFPB               |**
 
-#Reproducibility & Setup
+**Reproducibility & Setup
 
 This project was completed in R. To reproduce the analysis:
 
-Required Packages
-```r
-library(tidyverse)
+Required Packages**
+
+**library(tidyverse)
 library(tidytext)
 library(wordcloud)
 library(RColorBrewer)
 library(lubridate)
-library(scales)
-```
+library(scales)**
+
 
 Ensure your working directory contains the raw data CSV and the script (`textanalysis.R`). All code is commented for clarity.
 
