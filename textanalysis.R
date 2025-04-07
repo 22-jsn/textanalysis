@@ -77,6 +77,12 @@ text_tokens <- df_clean %>%
 text_tokens <- text_tokens %>%
   anti_join(get_stopwords())
 
+text_tokens <- text_tokens %>%
+  filter(word != "xxxx")
+text_tokens <- text_tokens %>%
+  filter(word != "xx")
+
+
 # Join with sentiment lexicons
 bing_sentiment <- text_tokens %>%
   inner_join(get_sentiments("bing")) %>%
@@ -94,14 +100,8 @@ ggplot(bing_sentiment, aes(x = sentiment, y = n, fill = sentiment)) +
        x = "Sentiment", y = "Word Count (in Thousands)") +
   theme_minimal()
 
-# png("images/wordcloud.png", width = 800, height = 600)
-# wordcloud(words = word_counts$word, freq = word_counts$n,
-#           min.freq = 1, max.words = 100, random.order = FALSE,
-#           colors = brewer.pal(8, "Dark2"))
-# dev.off()
 
-
-#trial charts
+#charts
 df_clean %>%
   count(month = floor_date(`Date received`, "month")) %>%
   ggplot(aes(x = month, y = n)) +
@@ -122,7 +122,7 @@ df %>%
        x = "Channel", y = "Count") +
   theme_minimal()
 
-df %>%
+df_clean %>%
   count(Product, Issue) %>%
   filter(n > 500) %>%
   ggplot(aes(x = Product, y = Issue, fill = n)) +
@@ -132,7 +132,7 @@ df %>%
   theme_minimal()
 
 
-# ☁️ Word Cloud of Complaint Narratives
+# Word Cloud of Complaint Narratives
 word_counts <- text_tokens %>%
   count(word, sort = TRUE) %>%
   filter(n > 500)
