@@ -26,12 +26,12 @@
 
 
 2. **Complaints by State**
-![Complaints by State](images/state_complaints.png)  
+![Complaints by State]([images/state_complaints.png](https://github.com/22-jsn/textanalysis/blob/41d357f867cedb3a71590da9baac247b845d11cc/state_complaints.pdf))  
 > California, Texas, and Florida generated the most complaints, possibly due to population density and volume of financial service users.
 
 
 3. **Timely Response Rate by Company**
-![Timely Response Rate](images/timely_response.png)  
+![Timely Response Rate](timely_response.pdf)  
 > Most top companies maintained high timely response rates — likely due to strict regulatory pressure and established case-handling infrastructure.
 
 
