@@ -21,7 +21,7 @@
 #Charts & Insights
 
 1. Top 10 Most Common Issues**
-![Top Issues](images/top_issues.png)  
+![Top Issues](https://github.com/22-jsn/textanalysis/blob/6a07250c89e79eb56a26b306c3af2d7031b21d94/top_issues.pdf)  
 > Loan servicing and account management were the most frequent sources of consumer complaints, highlighting recurring operational breakdowns in financial services.
 
 
