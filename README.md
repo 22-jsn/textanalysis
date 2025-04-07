@@ -1,3 +1,17 @@
+##Data Dictionary (Selected Variables)
+
+| Variable                        | Description                                                 |
+| 'Product'                     | Type of financial product (e.g., credit card, mortgage)     |
+| 'Issue'                     | Main issue reported by the consumer                         |
+| 'Consumer complaint narrative'| Written explanation of the complaint                        |
+| 'Company'                    | Financial institution or service provider named             |
+| 'State'                       | U.S. state of the consumer                                  |
+| 'Submitted via'               | Channel used to submit the complaint (web, phone, etc.)     |
+| 'Date received'              | Date the complaint was submitted to the CFPB               |
+
+---
+
+
 #textanalysis
 
 #Dataset Overview
