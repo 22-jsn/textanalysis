@@ -23,12 +23,8 @@ library(lubridate)
 library(scales)**
 
 
-Ensure your working directory contains the raw data CSV and the script (`textanalysis.R`). All code is commented for clarity.
-
----
-
-## 👥 Contributors
-- [Your Name Here]
+# Contributors
+**Jason Nyadu**
 
 
 
@@ -44,10 +40,10 @@ Ensure your working directory contains the raw data CSV and the script (`textana
 
 #Data Cleaning Process
 
-- Removed complaints with missing `Consumer complaint narrative` entries
-- Converted `Date received` to proper date format using `lubridate`
-- Extracted `year` and `month` for trend visualization
-- Tokenized narratives using `unnest_tokens()` and removed stop words
+- Removed complaints with missing 'Consumer complaint narrative' entries
+- Converted 'Date received' to proper date format using 'lubridate'
+- Extracted 'year' and 'month' for trend visualization
+- Tokenized narratives using 'unnest_tokens()' and removed stop words
 - Merged complaint data with two sentiment lexicons: **Bing** and **NRC**
 - Filtered and grouped text for analysis and visual clarity
 
