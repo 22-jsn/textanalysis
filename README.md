@@ -1,4 +1,4 @@
-**Data Dictionary (Selected Variables)**
+# Data Dictionary (Selected Variables)
 
 **| Variable                        | Description                                                 |
 | 'Product'                     | Type of financial product (e.g., credit card, mortgage)     |
