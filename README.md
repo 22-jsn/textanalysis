@@ -13,7 +13,7 @@
 
 This project was completed in R. To reproduce the analysis:
 
-Required Packages**
+**Required Packages**
 
 **library(tidyverse)
 library(tidytext)
